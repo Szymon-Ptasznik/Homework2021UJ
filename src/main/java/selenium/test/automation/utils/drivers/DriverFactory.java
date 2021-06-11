@@ -13,7 +13,7 @@ public class DriverFactory {
         if (browserType == BrowserType.CHROME) {
             System.setProperty("webdriver.chrome.driver", new FileHelper().getResourceFilePath("chromedriver.exe"));
             WebDriver driver = new ChromeDriver();
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             return driver;
         }

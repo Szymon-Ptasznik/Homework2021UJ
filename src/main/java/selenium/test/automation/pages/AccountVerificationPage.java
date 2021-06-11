@@ -19,8 +19,7 @@ public class AccountVerificationPage extends DefaultPage {
 
 
     public void fillAccountForm(String inputType) {
-        fillElement(accountField,"02 1600 1198 0002 0022 5108 7001");
-
+        fillElement(accountField, inputType);
     }
 
     public void submitAccountForm() {
