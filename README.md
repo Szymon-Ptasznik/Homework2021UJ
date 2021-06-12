@@ -1,7 +1,7 @@
 # Homework2021UJ
 
-**Aneta Zboś
-Michał Czepiel
+**Aneta Zboś / 
+Michał Czepiel / 
 Szymon Ptasznik**
 
 www Test Automation - VAT Tax Payer Bank Account Verification / Finance Ministry online Register
